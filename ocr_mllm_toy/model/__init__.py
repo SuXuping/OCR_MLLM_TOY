@@ -1,0 +1,3 @@
+from .model_qwen import OCR_MLLM_TOYQWenForCausalLM,OCR_MLLM_TOYQwenConfig
+from .model_baichuan import OCR_MLLM_TOYBaichuanConfig, OCR_MLLM_TOYBaichuanForCausalLM
+from .model_llama import OCR_MLLM_TOYLlamaConfig, OCR_MLLM_TOYLlamaForCausalLM
