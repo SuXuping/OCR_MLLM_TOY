@@ -1,4 +1,4 @@
-# OCR_MLLM_TOY : A multimodal large model for OCR
+# OCR_MLLM_TOY : A multimodal large language model for OCR
 [[🤗Space](https://huggingface.co/AIXI-AIGC/OCR_MLLM_TOY/)]
 ## Overview
 <p align="center">
