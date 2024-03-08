@@ -105,7 +105,7 @@ we have evaluated OCR_MLLM_TOY on many benchmarks including TextVQA\mm_bench\mm_
     Evaluation results.
 </p>
 <p align="center">
-    <img src="assets/ocr_mllm_toy14b_llava13b.png" width="100%"></a> <br>
+    <img src="assets/ocr_toy14b_llava13b.png" width="100%"></a> <br>
     Evaluation results of OCR_MLLM_TOY14B and LLaVA13B model on mm-vet benchmark.
 </p>
 comparing to LLaVA13B on mm-vet benchmark our model achieve better results in OCR related dimensions.
