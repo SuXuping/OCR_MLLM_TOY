@@ -1,4 +1,5 @@
 # OCR_MLLM_TOY : A Multimodal Large Language Model for OCR
+Our model supports image caption, VQA, especially performs well on OCR-related images. Our model supports Chinese Simplified, Chinese Traditional, and English languages.
 [[🤗Space](https://huggingface.co/AIXI-AIGC/OCR_MLLM_TOY/)]
 ## Overview
 <p align="center">
@@ -16,11 +17,23 @@
 **Usage and License Notices**: The data, and code is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA, Qwen, Vary 
 
 ## Contents
+- [Gradio Demo](#gradio-demo)
 - [Install](#install)
 - [Train](#train)
 - [Evaluation](#evaluation)
 - [Inference](#inference)
-- [Gradio Demo](#gradio-demo)
+
+## Gradio Demo
+
+To run our gradio demo, you need to get the checkpoints from [huggingface](https://huggingface.co/AIXI-AIGC/OCR_MLLM_TOY/) and put them in "./checkpoints/qwen14b-finetune_all/checkpoint-8300". Then run the following commands. 
+
+```Shell
+python -m ./ocr_mmlm_toy_gradio/my_gradio_web_server.py --host 0.0.0.0 --port 10000
+```
+<p align="center">
+    <img src="assets/demo3x.gif" width="70%"></a> <br>
+    OCR_MLLM_TOY Demo.
+</p>
 
 ## Install
 
@@ -123,17 +136,6 @@ we also provide LLM only infence and multimodal infence in "infence.py".
 ```
 python inference.py
 ```
-## Gradio Demo
-
-To run our gradio demo, you need to get the checkpoints from [huggingface](https://huggingface.co/AIXI-AIGC/OCR_MLLM_TOY/) and put them in "./checkpoints/qwen14b-finetune_all/checkpoint-8300". Then run the following commands. 
-
-```Shell
-python -m ./ocr_mmlm_toy_gradio/my_gradio_web_server.py --host 0.0.0.0 --port 10000
-```
-<p align="center">
-    <img src="assets/demo3x.gif" width="70%"></a> <br>
-    OCR_MLLM_TOY Demo.
-</p>
 
 ## Acknowledgement
 - [LLaVA](https://github.com/haotian-liu/LLaVA): the codebase we built upon. 
