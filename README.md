@@ -28,7 +28,7 @@ Our model supports image caption, VQA, especially performs well on OCR-related i
 To run our gradio demo, you need to get the checkpoints from [huggingface](https://huggingface.co/AIXI-AIGC/OCR_MLLM_TOY/) and put them in "./checkpoints/qwen14b-finetune_all/checkpoint-8300". Then run the following commands. 
 
 ```Shell
-python -m ./ocr_mmlm_toy_gradio/my_gradio_web_server.py --host 0.0.0.0 --port 10000
+python -m ./ocr_mllm_gradio/my_gradio_web_server.py --host 0.0.0.0 --port 10000
 ```
 <p align="center">
     <img src="assets/demo3x.gif" width="70%"></a> <br>
