@@ -1,5 +1,5 @@
 # OCR_MLLM_TOY : A Multimodal Large Language Model for OCR
-Our model supports image caption, VQA, especially performs well on OCR-related images. Our model supports Chinese Simplified, Chinese Traditional, and English languages. 🤩🤩🤩 Please give me a star if you find it useful!
+Our model supports image caption, VQA, especially performs well on OCR-related images. Our model supports Chinese Simplified, Chinese Traditional, and English languages. 🤩🤩🤩 Please give me a star if you find it interesting and useful!
 [[🤗Space](https://huggingface.co/AIXI-AIGC/OCR_MLLM_TOY/)]
 ## Overview
 <p align="center">
