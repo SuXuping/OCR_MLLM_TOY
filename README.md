@@ -112,7 +112,7 @@ sh ./scripts/finetune_lora_qwen14b.sh
 #### Attention: you need change some parameters in ".sh" file according to your device and data.
 
 ## Evaluation
-we have evaluated OCR_MLLM_TOY on many benchmarks including TextVQA\mm_bench\mm_bench_cn\mm_vet\MME.In some benchmarks our model can achieve similar results as LLaVA Next-34B.
+We have evaluated OCR_MLLM_TOY on many benchmarks including TextVQA\mm_bench\mm_bench_cn\mm_vet\MME.  In some benchmarks our model can achieve similar results as LLaVA Next-34B.
 <p align="center">
     <img src="assets/evaluate_results.png" width="70%"></a> <br>
     Evaluation results.
@@ -121,9 +121,9 @@ we have evaluated OCR_MLLM_TOY on many benchmarks including TextVQA\mm_bench\mm_
     <img src="assets/ocr_toy14b_llava13b.png" width="100%"></a> <br>
     Evaluation results of OCR_MLLM_TOY14B and LLaVA13B model on mm-vet benchmark.
 </p>
-comparing to LLaVA13B on mm-vet benchmark our model achieve better results in OCR related dimensions.
+Comparing to LLaVA13B on mm-vet benchmark, our model achieve better results in OCR related dimensions.
 
-Please see this [doc](EVAL.md) for the details.
+Please see this [doc](Eval.md) for the details.
 
 ## Inference
 
@@ -132,7 +132,7 @@ We provide interactive api for multimodal infence with stream outputs.
 ```
 python cli.py
 ```
-we also provide LLM only infence and multimodal infence in "infence.py".
+We also provide LLM only infence and multimodal infence in "infence.py".
 ```
 python inference.py
 ```
