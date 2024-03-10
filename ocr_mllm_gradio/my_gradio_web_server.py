@@ -31,7 +31,7 @@ DEFAULT_IMAGE_PATCH_TOKEN = '<imgpad>'
 DEFAULT_IM_START_TOKEN = '<img>'
 DEFAULT_IM_END_TOKEN = '</img>'
 
-headers = {"User-Agent": "Xiaoi Client"}
+headers = {"User-Agent": "OCR_MLLM_TOY Client"}
 no_change_btn = gr.Button.update()
 enable_btn = gr.Button.update(interactive=True)
 disable_btn = gr.Button.update(interactive=False)
@@ -315,7 +315,7 @@ block_css = """
 
 def build_demo(embed_mode):
     textbox = gr.Textbox(show_label=False, placeholder="Enter text and press ENTER", container=False)
-    with gr.Blocks(title="Xiaoi", theme=gr.themes.Default(), css=block_css) as demo:
+    with gr.Blocks(title="OCR_MLLM_TOY", theme=gr.themes.Default(), css=block_css) as demo:
         state = gr.State()
         if not embed_mode:
             gr.Markdown(title_markdown)
@@ -349,7 +349,7 @@ def build_demo(embed_mode):
                     max_output_tokens = gr.Slider(minimum=0, maximum=2048, value=2048, step=64, interactive=True, label="Max output tokens",)
 
             with gr.Column(scale=8):
-                chatbot = gr.Chatbot(elem_id="chatbot", label="Xiaoi Chatbot", height=550)
+                chatbot = gr.Chatbot(elem_id="chatbot", label="OCR_MLLM_TOY Chatbot", height=550)
                 with gr.Row():
                     with gr.Column(scale=8):
                         textbox.render()
