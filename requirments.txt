@@ -14,3 +14,4 @@ opencv-python
 albumentations
 bitsandbytes==0.41.0
 gradio==3.35.2
+torch==2.0.1
