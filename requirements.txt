@@ -1,0 +1,17 @@
+transformers==4.32.0
+accelerate
+tiktoken
+einops
+transformers_stream_generator==0.0.4
+scipy
+pillow
+tensorboard
+matplotlib
+sentencepiece
+loguru
+timm
+opencv-python
+albumentations
+bitsandbytes==0.41.0
+gradio==3.35.2
+torch==2.0.1
