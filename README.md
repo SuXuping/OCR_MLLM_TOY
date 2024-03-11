@@ -114,7 +114,7 @@ sh ./scripts/finetune_lora_qwen14b.sh
 ## Evaluation
 We have evaluated OCR_MLLM_TOY on many benchmarks including TextVQA\mm_bench\mm_bench_cn\mm_vet\MME.  In some benchmarks our model can achieve similar results as LLaVA Next-34B.
 <p align="center">
-    <img src="assets/Evaluation results.png" width="70%"></a> <br>
+    <img src="assets/Evaluation_results.png" width="70%"></a> <br>
     Evaluation results.
 </p>
 <p align="center">
