@@ -31,15 +31,11 @@ To run our gradio demo, you need to get the checkpoints from [huggingface](https
 python -m ./ocr_mllm_gradio/my_gradio_web_server.py --host 0.0.0.0 --port 10000
 ```
 
-https://github.com/SuXuping/OCR_MLLM_TOY/assets/59433977/df94e50b-6886-490b-aec0-b8a66bb6694e.mp4
-https://github.com/SuXuping/OCR_MLLM_TOY/assets/59433977/a4d0ae8e-8bd9-43b7-ab8d-59c67e015b89.mp4
+https://github.com/SuXuping/OCR_MLLM_TOY/assets/59433977/9a3a9748-8029-47c7-a5ed-ab799c7128bf
 
-**For clear demos,please refer to [demo1](assets/ticketsx2.mp4) and [demo2](assets/commonx2.mp4)**
-<p align="center">
-    <img src="assets/ticketsx2.gif" width="70%"></a> <br>
-    <img src="assets/commonx2.gif" width="70%"></a> <br>
-    OCR_MLLM_TOY Demo
-</p>
+https://github.com/SuXuping/OCR_MLLM_TOY/assets/59433977/08958b79-d32c-40f4-b9a8-9e0eacf371ce
+
+<p align="center">OCR_MLLM_TOY Demo</p>
 
 ## Install
 
