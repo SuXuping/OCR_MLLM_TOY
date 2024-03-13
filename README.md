@@ -11,7 +11,7 @@ Our model supports image caption, VQA, especially performs well on OCR-related i
 - [2] We adopted VIT image encoder weight from [QwenVL](https://github.com/QwenLM/Qwen-VL)
  
 ## Release
-- [2024/03/08] 🔥 We released the [OCR_MLLM_TOY](https://huggingface.co/AIXI-AIGC/OCR_MLLM_TOY/).
+- [2024/03/08] 🔥 We released the [OCR_MLLM_TOY](https://huggingface.co/AIXI-AIGC/OCR_MLLM_TOY/) pretrain weight.
 - [2024/03/07] 🔥 We released the training and evaluation code.
 
 **Usage and License Notices**: The data, and code is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA, Qwen, Vary 
